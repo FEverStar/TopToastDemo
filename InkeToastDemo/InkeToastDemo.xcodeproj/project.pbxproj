@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0B28041D13C47C0037B615 /* TopToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B28031D13C47C0037B615 /* TopToast.m */; };
+		3CEE71511D116FBC002F0433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE71501D116FBC002F0433 /* main.m */; };
+		3CEE71541D116FBC002F0433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE71531D116FBC002F0433 /* AppDelegate.m */; };
+		3CEE71571D116FBC002F0433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE71561D116FBC002F0433 /* ViewController.m */; };
+		3CEE715A1D116FBC002F0433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE71581D116FBC002F0433 /* Main.storyboard */; };
+		3CEE715C1D116FBC002F0433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE715B1D116FBC002F0433 /* Assets.xcassets */; };
+		3CEE715F1D116FBC002F0433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEE715D1D116FBC002F0433 /* LaunchScreen.storyboard */; };
+		3CEE716A1D116FBC002F0433 /* InkeToastDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE71691D116FBC002F0433 /* InkeToastDemoTests.m */; };
+		3CEE71751D116FBC002F0433 /* InkeToastDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEE71741D116FBC002F0433 /* InkeToastDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEE71661D116FBC002F0433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEE71441D116FBC002F0433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEE714B1D116FBC002F0433;
+			remoteInfo = InkeToastDemo;
+		};
+		3CEE71711D116FBC002F0433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEE71441D116FBC002F0433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEE714B1D116FBC002F0433;
+			remoteInfo = InkeToastDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0B28021D13C47C0037B615 /* TopToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopToast.h; sourceTree = "<group>"; };
+		3C0B28031D13C47C0037B615 /* TopToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopToast.m; sourceTree = "<group>"; };
+		3CEE714C1D116FBC002F0433 /* InkeToastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InkeToastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEE71501D116FBC002F0433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CEE71521D116FBC002F0433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CEE71531D116FBC002F0433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CEE71551D116FBC002F0433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CEE71561D116FBC002F0433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CEE71591D116FBC002F0433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CEE715B1D116FBC002F0433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CEE715E1D116FBC002F0433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CEE71601D116FBC002F0433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEE71651D116FBC002F0433 /* InkeToastDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkeToastDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEE71691D116FBC002F0433 /* InkeToastDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InkeToastDemoTests.m; sourceTree = "<group>"; };
+		3CEE716B1D116FBC002F0433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEE71701D116FBC002F0433 /* InkeToastDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkeToastDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEE71741D116FBC002F0433 /* InkeToastDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InkeToastDemoUITests.m; sourceTree = "<group>"; };
+		3CEE71761D116FBC002F0433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEE71491D116FBC002F0433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEE71621D116FBC002F0433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEE716D1D116FBC002F0433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEE71431D116FBC002F0433 = {
+			isa = PBXGroup;
+			children = (
+				3CEE714E1D116FBC002F0433 /* InkeToastDemo */,
+				3CEE71681D116FBC002F0433 /* InkeToastDemoTests */,
+				3CEE71731D116FBC002F0433 /* InkeToastDemoUITests */,
+				3CEE714D1D116FBC002F0433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEE714D1D116FBC002F0433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE714C1D116FBC002F0433 /* InkeToastDemo.app */,
+				3CEE71651D116FBC002F0433 /* InkeToastDemoTests.xctest */,
+				3CEE71701D116FBC002F0433 /* InkeToastDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEE714E1D116FBC002F0433 /* InkeToastDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE71521D116FBC002F0433 /* AppDelegate.h */,
+				3CEE71531D116FBC002F0433 /* AppDelegate.m */,
+				3CEE71551D116FBC002F0433 /* ViewController.h */,
+				3CEE71561D116FBC002F0433 /* ViewController.m */,
+				3C0B28021D13C47C0037B615 /* TopToast.h */,
+				3C0B28031D13C47C0037B615 /* TopToast.m */,
+				3CEE71581D116FBC002F0433 /* Main.storyboard */,
+				3CEE715B1D116FBC002F0433 /* Assets.xcassets */,
+				3CEE715D1D116FBC002F0433 /* LaunchScreen.storyboard */,
+				3CEE71601D116FBC002F0433 /* Info.plist */,
+				3CEE714F1D116FBC002F0433 /* Supporting Files */,
+			);
+			path = InkeToastDemo;
+			sourceTree = "<group>";
+		};
+		3CEE714F1D116FBC002F0433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE71501D116FBC002F0433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CEE71681D116FBC002F0433 /* InkeToastDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE71691D116FBC002F0433 /* InkeToastDemoTests.m */,
+				3CEE716B1D116FBC002F0433 /* Info.plist */,
+			);
+			path = InkeToastDemoTests;
+			sourceTree = "<group>";
+		};
+		3CEE71731D116FBC002F0433 /* InkeToastDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEE71741D116FBC002F0433 /* InkeToastDemoUITests.m */,
+				3CEE71761D116FBC002F0433 /* Info.plist */,
+			);
+			path = InkeToastDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEE714B1D116FBC002F0433 /* InkeToastDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEE71791D116FBC002F0433 /* Build configuration list for PBXNativeTarget "InkeToastDemo" */;
+			buildPhases = (
+				3CEE71481D116FBC002F0433 /* Sources */,
+				3CEE71491D116FBC002F0433 /* Frameworks */,
+				3CEE714A1D116FBC002F0433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InkeToastDemo;
+			productName = InkeToastDemo;
+			productReference = 3CEE714C1D116FBC002F0433 /* InkeToastDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CEE71641D116FBC002F0433 /* InkeToastDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEE717C1D116FBC002F0433 /* Build configuration list for PBXNativeTarget "InkeToastDemoTests" */;
+			buildPhases = (
+				3CEE71611D116FBC002F0433 /* Sources */,
+				3CEE71621D116FBC002F0433 /* Frameworks */,
+				3CEE71631D116FBC002F0433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEE71671D116FBC002F0433 /* PBXTargetDependency */,
+			);
+			name = InkeToastDemoTests;
+			productName = InkeToastDemoTests;
+			productReference = 3CEE71651D116FBC002F0433 /* InkeToastDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CEE716F1D116FBC002F0433 /* InkeToastDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEE717F1D116FBC002F0433 /* Build configuration list for PBXNativeTarget "InkeToastDemoUITests" */;
+			buildPhases = (
+				3CEE716C1D116FBC002F0433 /* Sources */,
+				3CEE716D1D116FBC002F0433 /* Frameworks */,
+				3CEE716E1D116FBC002F0433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEE71721D116FBC002F0433 /* PBXTargetDependency */,
+			);
+			name = InkeToastDemoUITests;
+			productName = InkeToastDemoUITests;
+			productReference = 3CEE71701D116FBC002F0433 /* InkeToastDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEE71441D116FBC002F0433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = L;
+				TargetAttributes = {
+					3CEE714B1D116FBC002F0433 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3CEE71641D116FBC002F0433 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3CEE714B1D116FBC002F0433;
+					};
+					3CEE716F1D116FBC002F0433 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3CEE714B1D116FBC002F0433;
+					};
+				};
+			};
+			buildConfigurationList = 3CEE71471D116FBC002F0433 /* Build configuration list for PBXProject "InkeToastDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CEE71431D116FBC002F0433;
+			productRefGroup = 3CEE714D1D116FBC002F0433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEE714B1D116FBC002F0433 /* InkeToastDemo */,
+				3CEE71641D116FBC002F0433 /* InkeToastDemoTests */,
+				3CEE716F1D116FBC002F0433 /* InkeToastDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEE714A1D116FBC002F0433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEE715F1D116FBC002F0433 /* LaunchScreen.storyboard in Resources */,
+				3CEE715C1D116FBC002F0433 /* Assets.xcassets in Resources */,
+				3CEE715A1D116FBC002F0433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEE71631D116FBC002F0433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEE716E1D116FBC002F0433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEE71481D116FBC002F0433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEE71571D116FBC002F0433 /* ViewController.m in Sources */,
+				3CEE71541D116FBC002F0433 /* AppDelegate.m in Sources */,
+				3CEE71511D116FBC002F0433 /* main.m in Sources */,
+				3C0B28041D13C47C0037B615 /* TopToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEE71611D116FBC002F0433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEE716A1D116FBC002F0433 /* InkeToastDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEE716C1D116FBC002F0433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEE71751D116FBC002F0433 /* InkeToastDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CEE71671D116FBC002F0433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEE714B1D116FBC002F0433 /* InkeToastDemo */;
+			targetProxy = 3CEE71661D116FBC002F0433 /* PBXContainerItemProxy */;
+		};
+		3CEE71721D116FBC002F0433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEE714B1D116FBC002F0433 /* InkeToastDemo */;
+			targetProxy = 3CEE71711D116FBC002F0433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CEE71581D116FBC002F0433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CEE71591D116FBC002F0433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CEE715D1D116FBC002F0433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CEE715E1D116FBC002F0433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CEE71771D116FBC002F0433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CEE71781D116FBC002F0433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CEE717A1D116FBC002F0433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InkeToastDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.InkeToastDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CEE717B1D116FBC002F0433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InkeToastDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.InkeToastDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CEE717D1D116FBC002F0433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InkeToastDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.InkeToastDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkeToastDemo.app/InkeToastDemo";
+			};
+			name = Debug;
+		};
+		3CEE717E1D116FBC002F0433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InkeToastDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.InkeToastDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkeToastDemo.app/InkeToastDemo";
+			};
+			name = Release;
+		};
+		3CEE71801D116FBC002F0433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InkeToastDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.InkeToastDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InkeToastDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3CEE71811D116FBC002F0433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InkeToastDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.InkeToastDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InkeToastDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEE71471D116FBC002F0433 /* Build configuration list for PBXProject "InkeToastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEE71771D116FBC002F0433 /* Debug */,
+				3CEE71781D116FBC002F0433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEE71791D116FBC002F0433 /* Build configuration list for PBXNativeTarget "InkeToastDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEE717A1D116FBC002F0433 /* Debug */,
+				3CEE717B1D116FBC002F0433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEE717C1D116FBC002F0433 /* Build configuration list for PBXNativeTarget "InkeToastDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEE717D1D116FBC002F0433 /* Debug */,
+				3CEE717E1D116FBC002F0433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEE717F1D116FBC002F0433 /* Build configuration list for PBXNativeTarget "InkeToastDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEE71801D116FBC002F0433 /* Debug */,
+				3CEE71811D116FBC002F0433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CEE71441D116FBC002F0433 /* Project object */;
+}
